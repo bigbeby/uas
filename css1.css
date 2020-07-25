@@ -1,0 +1,55 @@
+body{
+	margin: 0;
+	padding: 0;
+	align-items: center;
+}
+.header{
+	position: relative;
+	background-color: #0000FF; 
+}
+.menu{
+	position: relative;
+	width: 100%;
+	float: left;
+	font-size: 15pt;
+	 background-color: #333;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ ul li{
+ 	float: right;
+ 	display: inline;
+ 	margin: 0px 4px 0px 0px;
+ 	color: #90EE90;
+ }
+
+ ul li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ # background-color: #111;
+ }
+
+.sitbarkiri{
+	background: #90EE90;
+	width: 10%;
+	float: left;
+}
+
+.content {
+	background: #ddd;
+	width: 100%;
+
+}
+
+.sitbarkanan{
+	background:#90EE90;
+	width: 10%;
+	float: right;
+}
