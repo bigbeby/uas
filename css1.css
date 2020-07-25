@@ -1,14 +1,13 @@
 body{
 	margin: 0;
 	padding: 0;
-	align-items: center;
 }
 .header{
-	position: relative;
 	background-color: #0000FF; 
+	height: 50px;
+	position: relative;
 }
 .menu{
-	position: relative;
 	width: 100%;
 	float: left;
 	font-size: 15pt;
@@ -37,19 +36,33 @@ ul{
  }
 
 .sitbarkiri{
-	background: #90EE90;
-	width: 10%;
-	float: left;
+		background:#ddd;
+		height: 650px;
+		width: 150px;
+		float: left;
 }
 
 .content {
-	background: #ddd;
+	background: #fff;
 	width: 100%;
+
 
 }
 
 .sitbarkanan{
-	background:#90EE90;
-	width: 10%;
+	background: blue;
+	width: 150px;
+	height: 650px;
 	float: right;
+	bottom: 0;
+}
+
+.foter {
+	position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
 }
